@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5d2e3e18-85e7-43df-b1f7-8d4d3fe72be5" name="server" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="F:\BaiduNetdiskDownload\springMVC简单实例项目" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
