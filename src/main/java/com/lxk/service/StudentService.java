@@ -15,7 +15,7 @@ public class StudentService {
 
     @Resource(name = "studentDao")
     private StudentDao dao;
-
+    //neil add 20180609
     public List<Student> getAllStudent() {
         return dao.findAll();
     }
