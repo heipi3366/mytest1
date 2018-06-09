@@ -17,6 +17,7 @@ public class StudentService {
     private StudentDao dao;
     //neil add 20180609
     public List<Student> getAllStudent() {
+        int x = 0;
         return dao.findAll();
     }
 }
