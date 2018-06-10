@@ -17,6 +17,7 @@
 			<th>Name</th>
 			<th>Age</th>
 			<th>Sex</th>
+			<th>beizhu</th>
 		</tr>
 		<c:forEach var="student" items="${students}">
 			<tr>

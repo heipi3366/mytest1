@@ -14,11 +14,11 @@ public class StudentDao {
 
     public List<Student> findAll() {
         List<Student> all = Lists.newArrayList();
-        all.add(new Student("1", "tom", 18, true));
-        all.add(new Student("2", "cat", 28, true));
-        all.add(new Student("3", "lxk", 18, true));
-        all.add(new Student("3", "李学凯", 18, true));
-        all.add(new Student("4", "cms", 18, true));
+        all.add(new Student("1", "tom", 18, "boy"));
+        all.add(new Student("2", "cat", 28, "boy"));
+        all.add(new Student("3", "lxk", 18, "girl"));
+        all.add(new Student("3", "李学凯", 18, "boy"));
+        all.add(new Student("4", "cms", 18, "girl"));
         return all;
     }
 }

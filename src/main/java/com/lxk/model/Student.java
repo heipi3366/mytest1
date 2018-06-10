@@ -9,13 +9,13 @@ public class Student implements Serializable {
     private String id;
     private String name;
     private int age;
-    private boolean sex;
+    private String sex;
 
 
     public Student() {
     }
 
-    public Student(String id, String name, int age, boolean sex) {
+    public Student(String id, String name, int age, String sex) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -46,21 +46,18 @@ public class Student implements Serializable {
         this.age = age;
     }
 
-    public boolean isSex() {
+    public String getSex() {
         return sex;
     }
 
-    public void setSex(boolean sex) {
+    public void setSex(String sex) {
         this.sex = sex;
     }
 
     @Override
     public String toString() {
-        return "Student{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", sex=" + sex +
-                '}';
+        return "Student{" + "id='" + id + '\'' + ", name='" + name + '\'' + ", age=" + age + ", sex='" + sex + '\'' + '}';
+//        return "Student{" + "id='" + id + '\'' + ", name='" + name + '\'' + ", age=" + age + '}';
+//        return "test";
     }
 }
